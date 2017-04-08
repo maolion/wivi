@@ -13,7 +13,10 @@ Install from npm:
 $ npm install wivi --save
 ```
 
-Import in your project
+
+## Usage
+
+Import in your project:
 
 ```JavaScript
 
