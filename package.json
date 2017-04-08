@@ -1,0 +1,39 @@
+{
+  "name": "wivi",
+  "version": "0.1.0-dev.0",
+  "description": "Common modules for coding JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --watch",
+    "tslint": "tslint",
+    "lint": "tslint -c tslint.json -p tsconfig.json --type-check",
+    "build": "npm run lint && tsc --declaration",
+    "deploy": "./scripts/deploy.sh",
+    "deploy-dev": "npm run deploy dev",
+    "prepublishOnly": "exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maolion/wivi.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "TypeScript"
+  ],
+  "author": "maolion.j@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maolion/wivi/issues"
+  },
+  "homepage": "https://github.com/maolion/wivi#readme",
+  "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.40",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "tslint": "^5.0.0",
+    "typescript": "^2.2.2",
+    "vts": "^5.0.1"
+  }
+}

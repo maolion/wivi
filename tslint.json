@@ -1,0 +1,15 @@
+{
+  "extends": "vts",
+  "rules": {
+    "comment-format": [true, "check-space"],
+    "prefer-const": false,
+    "trailing-comma": [ false ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "allow-pascal-case",
+      "allow-trailing-underscore",
+      "allow-leading-underscore"
+    ]
+  }
+}
