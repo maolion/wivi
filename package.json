@@ -11,7 +11,7 @@
     "deploy": "./scripts/deploy.sh",
     "deploy-dev": "npm run deploy dev",
     "prepublishOnly": "exit 1",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
